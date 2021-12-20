@@ -1,4 +1,4 @@
-function trackData = CoorelateTrackWithMaskMP(trackData,imBW,pixelSize_um_xyz,cropFromEdge,startFrame,verbose)
+function trackData = CoorelateTrackWithMaskMPv2(trackData,imBW,im,pixelSize_um_xyz,cropFromEdge,startFrame,verbose)
     if (~exist('verbose','var') || isempty(verbose))
         verbose = false;
     end
