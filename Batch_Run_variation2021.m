@@ -21,7 +21,7 @@ for z=1:length(datasets(:,1))
     startFrame=50;
 
 
-    saveDir = ['/media/DATA/Maarten/results_200309/' datasets(z,:)];
+    saveDir = ['/media/DATA/Maarten/results_2022/' datasets(z,:)];
     if ~exist(saveDir, 'dir')
         mkdir(saveDir)
     end
